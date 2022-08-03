@@ -7,7 +7,7 @@ var swiper = new Swiper(".mySwiper", {
     centeredSlides: true,
     initialSlide: 1,
     autoplay : {
-      delay: 5000,
+      delay: 3000,
       disableOnInteraction: false,
     },
     speed: 600,
@@ -19,16 +19,20 @@ var swiper = new Swiper(".mySwiper", {
       slideShadows: false,
     },
   });
-  swiper.autoplay.stop()
 
-  const visibleArea = document.querySelector('.header__text').clientHeight ;
+  swiper.autoplay.stop();
+
+  const visibleArea = document.querySelector('.header__content').clientHeight ;
     
     window.addEventListener('scroll', ()=>{
       if(window.pageYOffset > visibleArea){
         swiper.autoplay.start()
         // докрутил
       }
-    })
+      
+    });
+    
+   
 
   ScrollReveal().reveal('.nav2', {  distance: '60px', origin: 'top', delay: 100});
   ScrollReveal().reveal('.headline', {  distance: '60px', origin: 'left', delay: 100});
