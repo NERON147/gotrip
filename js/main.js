@@ -17,10 +17,18 @@ var swiper = new Swiper(".mySwiper", {
       depth: 200,
       modifier: 0.8,
       slideShadows: false,
-
     },
-   
   });
+  swiper.autoplay.stop()
+
+  const visibleArea = document.querySelector('.header__text').clientHeight ;
+    
+    window.addEventListener('scroll', ()=>{
+      if(window.pageYOffset > visibleArea){
+        swiper.autoplay.start()
+        // докрутил
+      }
+    })
 
   ScrollReveal().reveal('.nav2', {  distance: '60px', origin: 'top', delay: 100});
   ScrollReveal().reveal('.headline', {  distance: '60px', origin: 'left', delay: 100});
