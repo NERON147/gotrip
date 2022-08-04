@@ -18,8 +18,8 @@ var swiper = new Swiper(".mySwiper", {
       modifier: 0.8,
       slideShadows: false,
     },
+   
   });
-
   swiper.autoplay.stop();
 
   const visibleArea = document.querySelector('.header__content').clientHeight ;
@@ -41,8 +41,8 @@ var swiper = new Swiper(".mySwiper", {
   ScrollReveal().reveal('.destinations__title2', {  distance: '60px', origin: 'left',delay: 100});
   ScrollReveal().reveal('.destinations__text2', {  distance: '60px', origin: 'right', delay: 300});
   ScrollReveal().reveal('.destinations__slider2', {  distance: '60px', origin: 'right', delay: 800});
-  ScrollReveal().reveal('.customers__img2', {  distance: '60px', origin: 'left', delay: 1500});
-  ScrollReveal().reveal('.customers__title2', {  distance: '60px', origin: 'right', delay: 1700});
+  ScrollReveal().reveal('.customers__img2', {  distance: '60px', origin: 'left', delay: 1300});
+  ScrollReveal().reveal('.customers__title2', {  distance: '60px', origin: 'right', delay: 1500});
   ScrollReveal().reveal('.review2', {  distance: '60px', origin: 'right', delay: 1700});
   ScrollReveal().reveal('.header__btn2', {  distance: '60px', origin: 'right', delay: 800,
   rotate: {
@@ -52,6 +52,9 @@ var swiper = new Swiper(".mySwiper", {
 }});
 
 ScrollReveal().reveal('.nav__toggle', {  distance: '60px', origin: 'right', delay: 400});
+ScrollReveal().reveal('.logo--footer', {  distance: '60px', origin: 'bottom', delay: 400});
+
+
 
 
 // Бургер

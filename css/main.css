@@ -241,7 +241,7 @@ body {
     column-gap: 50px;
 }
 .destinations__content {
-    min-width: 456px;
+    max-width: 456px;
 }
 .destinations__slider {
     width: 1700px;
@@ -296,17 +296,8 @@ body {
 /* slider */
 
 
-.slider__item {
-    width: 335px;
-    height: 402px;
-    
-    border-radius: 35px;
-}   
+   
 
-.slider__item.active {
-    width: 380px;
-    height: 456px;
-}
 
 .swiper-wrapper {
     
@@ -449,7 +440,7 @@ body {
 }
 
 .subscribe__title {
-    min-width: 494px;
+    max-width: 494px;
     margin-bottom: 60px;
     font-size: 55px;
     font-weight: 600;
@@ -668,6 +659,7 @@ body {
 
     .destinations__row {
         flex-direction: column;
+        align-items: center;
     }
 
     .destinations__content {
@@ -678,6 +670,9 @@ body {
     .destinations__slider {
         width: 100%;
     }
+
+    
+
 }
 
 @media (max-width: 850px) {
@@ -735,6 +730,137 @@ body {
         padding: 20px 35px;
         font-size: 20px;
         border-radius: 30px;
+    }
+
+    .destinations {
+        padding: 40px 0 50px;
+    }
+
+    .destinations__title {
+        margin-bottom: 10px;
+        font-size: 35px;
+    }
+
+    .destinations__content {
+        
+    }
+
+    .destinations__slider {
+        width: 900px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .customers__row {
+        flex-direction: column-reverse;
+        row-gap: 30px;
+        align-items: center;
+        text-align: center;
+    }
+
+    .customers__title {
+        margin-bottom: 25px;
+        font-size: 35px;
+        
+    }
+
+    .review__client {
+        column-gap: 30px;
+        margin-bottom: 30px;
+        text-align: left;
+    }
+
+    .review__text {
+        text-align: left;
+    }
+
+    .review__client-avatar {
+        width: 80px;
+        height: 80px;
+    }
+
+    .review__client-desc-name {
+        margin-bottom: 5px;
+        font-size: 23px;
+
+    }
+
+    .cta {
+        padding: 50px 0;
+        align-items: center;
+        text-align: center;
+        
+    }
+
+    .cta__title {
+        font-size: 25px;
+        margin-bottom: 20px;
+    }
+
+    .cta_text {
+        margin-bottom: 30px;
+        font-size: 15px;
+    }
+
+    .cta__plate {
+        min-height: 380px;
+        padding: 20px 15px;
+    }
+
+    .subscribe {
+        padding: 25px 0 35px;
+    }
+
+    .subscribe__title {
+        margin-bottom: 30px;
+        font-size: 35px;
+        margin: ;
+    }
+    
+    
+    .subscribe__form {
+        padding: 8px 4px 12px 21px;
+        border-radius: 35px;
+        background-color: #fff;
+        display: flex;
+        column-gap: 5px;
+    }
+
+    .subscribe__btn {
+        padding: 12px 34px;
+        font-size: 19px;
+        
+    }
+
+    .logo--footer {
+        
+    }
+}
+
+@media (max-width: 700px) {
+    .destinations__slider {
+        width: 800px;
+        margin-left: -100px;
+    }
+
+}
+
+@media (max-width: 414px) {
+    .destinations__slider {
+        width: 800px;
+        margin-left: -210px;
+    }
+
+}
+
+
+@media (max-width: 390px) {
+    .subscribe__form {
+        padding: 8px 0px 12px 0px;
+        border-radius: 35px;
+        background-color: #fff;
+        display: flex;
+        column-gap: 5px;
     }
 
 }
