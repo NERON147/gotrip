@@ -845,12 +845,19 @@ body {
 
 }
 
-@media (max-width: 414px) {
+@media (max-width: 415px) {
     .destinations__slider {
         width: 800px;
         margin-left: -210px;
     }
 
+    .subscribe__form {
+        padding: 8px 0px 12px 0px;
+        border-radius: 35px;
+        background-color: #fff;
+        display: flex;
+        column-gap: 5px;
+    }
 }
 
 
