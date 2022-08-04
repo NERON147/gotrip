@@ -1,6 +1,8 @@
 @import "./reset.css";
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
 
+
+
 :root {
     --container-width: 1270px;
     --container-padding: 15px;
@@ -244,7 +246,7 @@ body {
     max-width: 456px;
 }
 .destinations__slider {
-    width: 1700px;
+    max-width: 1700px;
     
     align-items: center;
 }
@@ -671,7 +673,9 @@ body {
         width: 100%;
     }
 
-    
+    .customers {
+        padding: 100px 0px 133px;
+    }
 
 }
 
@@ -814,7 +818,7 @@ body {
     .subscribe__title {
         margin-bottom: 30px;
         font-size: 35px;
-        margin: ;
+        
     }
     
     .subscribe__form {
@@ -831,8 +835,8 @@ body {
         
     }
 
-    .logo--footer {
-        
+    .customers__img {
+        width: 100%;
     }
 }
 
