@@ -41,9 +41,9 @@ var swiper = new Swiper(".mySwiper", {
   ScrollReveal().reveal('.destinations__title2', {  distance: '60px', origin: 'left',delay: 100});
   ScrollReveal().reveal('.destinations__text2', {  distance: '60px', origin: 'right', delay: 300});
   ScrollReveal().reveal('.destinations__slider2', {  distance: '60px', origin: 'right', delay: 800});
-  ScrollReveal().reveal('.customers__img2', {  distance: '60px', origin: 'left', delay: 1300});
-  ScrollReveal().reveal('.customers__title2', {  distance: '60px', origin: 'right', delay: 1500});
-  ScrollReveal().reveal('.review2', {  distance: '60px', origin: 'right', delay: 1700});
+  ScrollReveal().reveal('.customers__img2', {  distance: '60px', origin: 'left', delay: 1100});
+  ScrollReveal().reveal('.customers__title2', {  distance: '60px', origin: 'right', delay: 1200});
+  ScrollReveal().reveal('.review2', {  distance: '60px', origin: 'right', delay: 1400});
   ScrollReveal().reveal('.header__btn2', {  distance: '60px', origin: 'right', delay: 800,
   rotate: {
     x: 100,
