@@ -13,6 +13,7 @@ body {
     font-family: 'Poppins', sans-serif;
     background-color: #E5E5E5;
     color: #0F1F1C;
+    overflow-x: hidden;
  }
 
  .none {
